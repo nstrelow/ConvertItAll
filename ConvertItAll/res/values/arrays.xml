@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="currencies">
+        <item>AUD</item>
+        <item>BYR</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>INR</item>
+        <item>ISK</item>
+        <item>JPY</item>
+        <item>LVL</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>TRY</item>
+        <item>UAH</item>
+        <item>USD</item>
+        <item>VND</item>
+        <item>ZAR</item>
+    </string-array>
+    <string-array name="currency_locales">
+        <item>en_AU</item>
+        <item>be_BY</item>
+        <item>en_CA</item>
+        <item>de_CH</item>
+        <item>zh_Hans_CN</item>
+        <item>cs_CZ</item>
+        <item>da_DK</item>
+        <item>de_DE</item>
+        <item>en_GB</item>
+        <item>hr_HR</item>
+        <item>hu_HU</item>
+        <item>en_IN</item>
+        <item>is_IS</item>
+        <item>ja_JP</item>
+        <item>lv_LV</item>
+        <item>no_NO</item>
+        <item>en_NZ</item>
+        <item>pl_PL</item>
+        <item>ro_RO</item>
+        <item>ru_RU</item>
+        <item>sv_SE</item>
+        <item>en_SG</item>
+        <item>tr_TR</item>
+        <item>Uk_UA</item>
+        <item>en_US</item>
+        <item>Vi_VN</item>
+        <item>en_ZA</item>
+    </string-array>
+    <string-array name="currencies_wiki">
+        <item>http://en.wikipedia.org/wiki/AUD</item>
+        <item>http://en.wikipedia.org/wiki/BYR</item>
+        <item>http://en.wikipedia.org/wiki/Canadian_dollar</item>
+        <item>http://en.wikipedia.org/wiki/CHF</item>
+        <item>http://en.wikipedia.org/wiki/CNY</item>
+        <item>http://en.wikipedia.org/wiki/CZK</item>
+        <item>http://en.wikipedia.org/wiki/DKK</item>
+        <item>http://en.wikipedia.org/wiki/EUR</item>
+        <item>http://en.wikipedia.org/wiki/GBP</item>
+        <item>http://en.wikipedia.org/wiki/HRK</item>
+        <item>http://en.wikipedia.org/wiki/Hungarian_forint</item>
+        <item>http://en.wikipedia.org/wiki/Indian_rupee</item>
+        <item>http://en.wikipedia.org/wiki/ISK</item>
+        <item>http://en.wikipedia.org/wiki/JPY</item>
+        <item>http://en.wikipedia.org/wiki/LVL</item>
+        <item>http://en.wikipedia.org/wiki/NOK</item>
+        <item>http://en.wikipedia.org/wiki/NZD</item>
+        <item>http://en.wikipedia.org/wiki/Polish_zloty</item>
+        <item>http://en.wikipedia.org/wiki/RON</item>
+        <item>http://en.wikipedia.org/wiki/RUB</item>
+        <item>http://en.wikipedia.org/wiki/SEK</item>
+        <item>http://en.wikipedia.org/wiki/SGD</item>
+        <item>http://en.wikipedia.org/wiki/TRY</item>
+        <item>http://en.wikipedia.org/wiki/Ukrainian_hryvnia</item>
+        <item>http://en.wikipedia.org/wiki/USD</item>
+        <item>http://en.wikipedia.org/wiki/VND</item>
+        <item>http://en.wikipedia.org/wiki/South_African_rand</item>
+    </string-array>
+    <string-array name="currencies_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+    <string-array name="default_currencies">
+        <item>24</item>
+        <item>15</item>
+        <item>13</item>
+        <item>3</item>
+        <item>21</item>
+        <item>2</item>
+        <item>20</item>
+        <item>0</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="lengths">
+        <item>kilometer (km)</item>
+        <item>meter (m)</item>
+        <item>decimeter (dm)</item>
+        <item>centimeter (cm)</item>
+        <item>millimeter (mm)</item>
+        <item>mircometer (μm)</item>
+        <item>nanometer (nm)</item>
+        <item>mile (mi)</item>
+        <item>yard (yd)</item>
+        <item>feet (ft)</item>
+        <item>inch (in)</item>
+        <item>nautical mile (nmi)</item>
+    </string-array>
+    <string-array name="lengths_wiki">
+        <item>http://en.wikipedia.org/wiki/kilometer</item>
+        <item>http://en.wikipedia.org/wiki/Meter</item>
+        <item>http://en.wikipedia.org/wiki/decimeter</item>
+        <item>http://en.wikipedia.org/wiki/centimeter</item>
+        <item>http://en.wikipedia.org/wiki/millimeter</item>
+        <item>http://en.wikipedia.org/wiki/micrometre</item>
+        <item>http://en.wikipedia.org/wiki/nanometer</item>
+        <item>http://en.wikipedia.org/wiki/Miles</item>
+        <item>http://en.wikipedia.org/wiki/yard</item>
+        <item>http://en.wikipedia.org/wiki/feet</item>
+        <item>http://en.wikipedia.org/wiki/inch</item>
+        <item>http://en.wikipedia.org/wiki/Nautical_mile</item>
+    </string-array>
+    <string-array name="lengths_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="default_lengths">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>10</item>
+        <item>0</item>
+        <item>7</item>
+        <item>4</item>
+        <item>9</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="temperatures">
+        <item>Celsius (°C)</item>
+        <item>Fahrenheit (°F)</item>
+        <item>Kelvin (K)</item>
+        <item>Réaumur (°Ré)</item>
+        <item>Rankine (°Ra)</item>
+        <item>Newton (°N)</item>
+        <item>Delisle (°De)</item>
+        <item>Rømer (°Rø)</item>
+    </string-array>
+    <string-array name="temperatures_wiki">
+        <item>http://en.wikipedia.org/wiki/Celsius</item>
+        <item>http://en.wikipedia.org/wiki/Fahrenheit</item>
+        <item>http://en.wikipedia.org/wiki/Kelvin</item>
+        <item>http://en.wikipedia.org/wiki/Reaumur_scale</item>
+        <item>http://en.wikipedia.org/wiki/Rankine_scale</item>
+        <item>http://en.wikipedia.org/wiki/Newton_scale</item>
+        <item>http://en.wikipedia.org/wiki/Delisle_scale</item>
+        <item>http://en.wikipedia.org/wiki/Romer_scale</item>
+    </string-array>
+    <string-array name="temperatures_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="default_temperatures">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="bytes">
+        <item>bit</item>
+        <item>byte</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terrabyte</item>
+        <item>Petabyte</item>
+        <item>Exabyte</item>
+        <item>Zettabyte</item>
+    </string-array>
+    <string-array name="bytes_wiki">
+        <item>http://en.wikipedia.org/wiki/bit</item>
+        <item>http://en.wikipedia.org/wiki/byte</item>
+        <item>http://en.wikipedia.org/wiki/Kilobyte</item>
+        <item>http://en.wikipedia.org/wiki/Megabyte</item>
+        <item>http://en.wikipedia.org/wiki/Gigabyte</item>
+        <item>http://en.wikipedia.org/wiki/Terrabyte</item>
+        <item>http://en.wikipedia.org/wiki/Petabyte</item>
+        <item>http://en.wikipedia.org/wiki/Exabyte</item>
+        <item>http://en.wikipedia.org/wiki/Zettabyte</item>
+    </string-array>
+    <string-array name="bytes_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="default_bytes">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="numerical_systems">
+        <item>decimal</item>
+        <item>binary</item>
+        <item>hexadecimal</item>
+        <item>octal</item>
+    </string-array>
+    <string-array name="numerical_systems_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="numerical_systems_wiki">
+        <item>http://en.wikipedia.org/wiki/Decimal</item>
+        <item>http://en.wikipedia.org/wiki/Binary</item>
+        <item>http://en.wikipedia.org/wiki/Hexdecimal</item>
+        <item>http://en.wikipedia.org/wiki/Octal</item>
+    </string-array>
+    <string-array name="forces">
+        <item>Newton</item>
+        <item>Dyne</item>
+        <item>Kilogram force</item>
+        <item>Pound Force</item>
+    </string-array>
+    <string-array name="forces_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="forces_wiki">
+        <item>http://en.wikipedia.org/wiki/Newton_(unit)</item>
+        <item>http://en.wikipedia.org/wiki/Dyne</item>
+        <item>http://en.wikipedia.org/wiki/Kilogram-force</item>
+        <item>http://en.wikipedia.org/wiki/Pound_(force)</item>
+    </string-array>
+    <string-array name="themes">
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Orange</item>
+        <item>Light Orange</item>
+        <item>Red</item>
+        <item>Light Red</item>
+        <item>Violet</item>
+        <item>Light Violet</item>
+    </string-array>
+    <string-array name="themes_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="unit_categories">
+        <item>Currency</item>
+        <item>Length</item>
+        <item>Temperature</item>
+        <item>Byte</item>
+        <item>Numerical System</item>
+        <item>Force</item>
+    </string-array>
+
+</resources>

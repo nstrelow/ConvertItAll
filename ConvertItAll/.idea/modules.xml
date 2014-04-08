@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConvertItAll.iml" filepath="$PROJECT_DIR$/ConvertItAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ConvertItAllProject.iml" filepath="$PROJECT_DIR$/../ConvertItAllProject.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:holo="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/title_units" >
+        <Preference
+            android:key="pref_selected_currencies"
+            android:summary="@string/summary_select_currencies"
+            android:title="@string/title_select_currencies" />
+        <Preference
+            android:key="pref_selected_lengths"
+            android:summary="@string/summary_select_lengths"
+            android:title="@string/title_select_lengths" />
+        <Preference
+            android:key="pref_selected_temperatures"
+            android:summary="@string/summary_select_temperatures"
+            android:title="@string/title_select_temperatures" />
+        <Preference
+            android:key="pref_selected_bytes"
+            android:summary="@string/summary_select_bytes"
+            android:title="@string/title_select_bytes" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_theming">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/theme_instruction"
+            android:entries="@array/themes"
+            android:entryValues="@array/themes_id"
+            android:key="pref_theme_setting"
+            android:title="@string/title_theme_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_about" >
+        <!--<Preference
+            android:key="pref_xda_thread"
+            android:summary="Open the XDA Thread in your browser"
+            android:title="XDA Thread" >
+        </Preference>-->
+        <!--<Preference
+            android:key="pref_changelog"
+            android:summary="View the changelog"
+            android:title="Changelog" >
+        </Preference>-->
+        <Preference
+            android:title="Version"
+            android:key="pref_version"/>
+        <Preference
+            android:summary="© 2012 - 2014, Nils Strelow @ FUNception Apps"
+            android:title="Copyright" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

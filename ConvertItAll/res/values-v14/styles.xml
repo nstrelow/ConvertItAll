@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.CIA.Base" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_ab_cia_light
+        </item>
+        <item name="android:actionButtonStyle">
+            @android:style/Widget.DeviceDefault.Light.Button.Borderless.Small
+        </item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+        <item name="android:actionOverflowButtonStyle">
+            @style/Widget.AppCompat.ActionButton.Overflow
+        </item>
+    </style>
+
+    <style name="Theme.CIA.Base.Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

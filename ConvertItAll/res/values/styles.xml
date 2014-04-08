@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.CIA.Base" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_ab_cia_light</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">70</item>
+        <item name="android:inputType">number|numberSigned|numberDecimal</item>
+    </style>
+    
+    <style name="edit_text_noedit" parent="@style/edit_text">
+        <item name="android:clickable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="spinner">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_below">@+id/linearLayout1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">48dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

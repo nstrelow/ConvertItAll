@@ -1,0 +1,2 @@
+// Include main project and needed libraries
+include ':ConvertItAll', ':OverscrollGlow', ':android-styled-dialogs'

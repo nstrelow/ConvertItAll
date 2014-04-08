@@ -1,0 +1,95 @@
+v2.2
+- updated HoloEverywhere Library (lost multicolor theme support)
+- new NavigationDrawer looks good :D
+
+v2.1
+- added setting to select preferred units
+- set default preferred units to common units
+- added side menu (WIP, looks ugly)
+
+v2.0
+THIS WILL BE THE LAST VERSION BEFORE THE PLAYSTORE RELEASE!
+- fix click on MenuItem being executed twice
+- fix share action on actionbar not changing according to theme
+- fix switching unit
+- make the result text black for better viewing
+- using the unit switch button now instantly converts the new value
+
+v1.9
+- format currencies according their country
+- format length and byte according to locale setup
+- added button to actionbar to copy result to clipboard for later pasting
+v1.8
+- showing last used units and converter on startup
+- added switch button to switch units easily
+- fix for currency database
+
+v1.7: Color it even more
+- added setting for ActionBar Theme and Background Color
+
+
+v1.6: Color your life
+- added blue, orange, red, purple, green theme, more colors for you :D
+- added ads, if you don't like it, please sent me a feedback :)
+- some clean up and optimizations
+
+
+v1.5: share, share AND SHARE your results with the world
+- added update function, app will check at startup if a new version is available,
+     you are able to download it and install it afterwards
+- added byte conversion with bit, byte, Kilobyte, Megabyte,
+	 Gigabyte, Terrabyte, Petabyte, Exabyte, Zettabyte
+- added more european currencies as suggested by mr-tical@xda 
+    SEK - Swedish Krona, TRY - Turkish Lira, NOK - Norwegian Krone, 
+    DKK - Danish Krone, RUB - Russian Ruble, CZK - Czech Koruna, 
+    RON - Romanian New Leu, HRK - Croatian Kuna, ISK - Icelandic Krona, 
+    LVL - Latvian Lat, BYR - Belarusian Ruble.
+- added share function, use it to share your results
+- added feedback option, so you can give me a feedback if you want
+
+
+v1.4: now you can give a f*** about wii sports golf using yard (yd)
+- added deci/centi/milli/micro/nano/meter , yard, feet and inch conversion
+
+
+v1.3: the journey of adding more
+- added temperature converter
+  - support 8 different degrees:
+  		Celsius, Fahrenheit, Kelvin, Réaumur, Rankine, Newton, Delisle, Rømer
+- moved menu into actionbar, now you got 2 icons, one for settings and one to update the currencies
+- added Wikipedia links to all the different units, open wikipedia link by long pressing the item
+
+
+v1.2: tiny flaggy update
+- added country flags to currencies
+
+
+v1.1: THE first update
+
+- added Up-Navigation Pattern, 
+		for reference : http://developer.android.com/design/patterns/navigation.html
+- holo(ed) more stuff, now everything looks like an standart 4.0+ app
+    - dialogs in holo
+    - spinner are now "dropping down" like in 4.0+
+    - some other redesigns
+- renamed black theme to dark theme
+- added choice between light theme and light theme with dark actionbar
+
+
+v1.0: Initial release
+
+- added currency, length and numerical system converter
+- currency converter supports : 
+         AUD,CAD,CHF,CNY,EUR,GBP,HUF,INR,JPY,NZD,PLN,SGD,UAH,USD,VND,ZAR
+- length converter supports :
+         kilometers,land miles
+- numerical system converter supports
+         decimal,hexdecimal
+- added update function for currencies in menu
+- saving currency in a sql lite database
+- added setting to round currency
+- themed app holo
+- added actionbar with tabs
+- added setting for dark holo and light holo theme
+- supports Android 2.1 (eclair) and onwards
+- added changelog under settings

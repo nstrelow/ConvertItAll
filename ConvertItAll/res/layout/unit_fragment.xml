@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llUnitIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_unitIn"
+            style="@style/edit_text"
+            android:layout_marginRight="8dp"
+            android:hint="@string/hint_degree" />
+
+        <Spinner
+            android:id="@+id/sp_from_unit"
+            style="@style/spinner" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bt_switch"
+        style="?actionButtonStyle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/llUnitIn"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/switch_button_content_description"
+        android:src="@drawable/ic_switch_button_holo_light" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bt_switch"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_unitOut"
+            style="@style/edit_text_noedit"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:inputType="none"></EditText>
+
+        <Spinner
+            android:id="@+id/sp_to_unit"
+            style="@style/spinner" />
+    </LinearLayout>
+
+</RelativeLayout>

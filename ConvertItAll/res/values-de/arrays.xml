@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="currencies_wiki">
+        <item>http://de.wikipedia.org/wiki/Australischer_Dollar</item>
+        <item>http://de.wikipedia.org/wiki/BYR</item>
+        <item>http://de.wikipedia.org/wiki/Kanadischer_Dollar</item>
+        <item>http://de.wikipedia.org/wiki/CHF</item>
+        <item>http://de.wikipedia.org/wiki/CNY</item>
+        <item>http://de.wikipedia.org/wiki/CZK</item>
+        <item>http://de.wikipedia.org/wiki/DKK</item>
+        <item>http://de.wikipedia.org/wiki/EUR</item>
+        <item>http://de.wikipedia.org/wiki/Pfund_Sterling</item>
+        <item>http://de.wikipedia.org/wiki/HRK</item>
+        <item>http://de.wikipedia.org/wiki/Forint</item>
+        <item>http://de.wikipedia.org/wiki/Indische_Rupie</item>
+        <item>http://de.wikipedia.org/wiki/ISK</item>
+        <item>http://de.wikipedia.org/wiki/JPY</item>
+        <item>http://de.wikipedia.org/wiki/LVL</item>
+        <item>http://de.wikipedia.org/wiki/NOK</item>
+        <item>http://de.wikipedia.org/wiki/NZD</item>
+        <item>http://de.wikipedia.org/wiki/Zloty</item>
+        <item>http://de.wikipedia.org/wiki/RON</item>
+        <item>http://de.wikipedia.org/wiki/RUB</item>
+        <item>http://de.wikipedia.org/wiki/SEK</item>
+        <item>http://de.wikipedia.org/wiki/Singapur-Dollar</item>
+        <item>http://de.wikipedia.org/wiki/TRY</item>
+        <item>http://de.wikipedia.org/wiki/Hrywnja</item> 
+        <item>http://de.wikipedia.org/wiki/USD</item>
+        <item>http://de.wikipedia.org/wiki/VND</item>
+        <item>http://de.wikipedia.org/wiki/Südafrikanischer_Rand</item>
+        
+    </string-array>
+    <string-array name="temperatures_wiki">
+        <item>http://de.wikipedia.org/wiki/Celsius</item>
+        <item>http://de.wikipedia.org/wiki/Fahrenheit</item>
+        <item>http://de.wikipedia.org/wiki/Kelvin</item>
+        <item>http://de.wikipedia.org/wiki/Reaumur-skala</item>
+        <item>http://de.wikipedia.org/wiki/Rankine-skala</item>
+        <item>http://de.wikipedia.org/wiki/Newton-skala</item>
+        <item>http://de.wikipedia.org/wiki/Delisle-skala</item>
+        <item>http://de.wikipedia.org/wiki/Romer-skala</item>
+    </string-array>
+    <string-array name="numerical_systems">
+        <item>Dezimal</item>
+        <item>Hexdezimal</item>
+    </string-array>
+    <string-array name="numerical_systems_wiki">
+        <item>http://en.wikipedia.org/wiki/Decimal</item>
+        <item>http://en.wikipedia.org/wiki/Hexdecimal</item>
+    </string-array>
+
+</resources>
